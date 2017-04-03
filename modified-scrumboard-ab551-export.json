@@ -1,0 +1,67 @@
+{
+  "users": {
+      "user1" : {
+      "first" : "Katelyn",
+      "id" : "kmzurn",
+      "last" : "Zurn",
+      "password" : "1234pass",
+        "projects": {
+	"project1" : true,
+  	"project3" : true
+      }
+      },
+	"user2": {
+	      "first" : "Gina",
+	      "id" : "gesantella",
+	      "last" : "Santella",
+	      "password" : "1234pass",
+	"projects": {
+		"project1" : true
+	}
+	},
+	"user3" : {
+	      "first" : false,
+	      "id" : "iaparker",
+	      "last" : false,
+	      "password" : "1234password",
+	    "projects": {
+		"project2" : true
+	}
+	},
+	"user4" : {
+	      "first" : "Heran",
+	      "id" : "h1tebeka",
+	      "last" : false,
+	      "password" : "password",
+	"projects": {
+		"project2" : true
+	}
+	}
+},
+
+  "projects" : {
+    "project1" : {
+      "description" : "Task list manager",
+      "name" : "Task List",
+      "users" : {
+        "gesantella" : true,
+        "kmzurn" : true
+      }
+    },
+    "project2" : {
+      "description" : "Scrum board manager",
+      "name" : "Scrum Board",
+      "users" : {
+        "h1tebeka" : true,
+        "iaparker" : true
+      }
+    },
+    "project3" : {
+      "description" : false,
+      "name" : "Chore List",
+      "users" : {
+        "kmzurn" : true
+      }
+    }
+}
+}
